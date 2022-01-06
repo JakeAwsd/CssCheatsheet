@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/css.css">
+    <title>Css Cheatsheet</title>
+</head>
+<header>Css Snippet Cheatsheet</header>
+<p>Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it to this page! Select<br>  any snippet below and it'll automatically select all of the code for you to copy</p>
+<body>
+
+    <div class="boxes">
+
+        <section class="card">
+
+            <h1 > Flexbox Row</h1>
+
+            <p class="description">Use these three properties to create a Flexbox Row layout.</p>
+
+            <section class="insidebox"> 
+
+                .row { <br> 
+
+                <div class="indent"> display: flex; <br> </div>
+
+                    <div class="indent"> flex-direction: row; <br> </div>
+
+                    <div class="indent"> flex-wrap: wrap; </div>
+
+                   }
+
+            </section>
+
+        </section>
+
+
+
+
+        <section class="card">
+
+            <h1>Flexbox Column</h1>
+
+            <p class="description">Use this to create a Flexbox column layout.</p>
+
+            <section class="insidebox"> 
+
+                .column { <br> 
+
+                    <div class="indent"> display: flex; <br> </div>
+    
+                        <div class="indent"> flex-direction: column; <br> </div>
+
+                       }
+    
+            </section>
+
+        </section>
+
+
+
+
+        <section class="card">
+
+            <h1>CSS Grid Layout</h1>
+
+            <p class="description">Build a 12-column layout using CSS Grid.</p>
+            <section class="insidebox">
+
+                .grid { <br> 
+
+                    <div class="indent"> display: grid; <br> </div>
+    
+                        <div class="indent"> width: 100%; <br> </div>
+    
+                        <div class="indent"> grid-template-columns; </div>
+                        repeat(12, 1fr); <br>
+                       }
+    
+            </section>
+
+        </section>
+
+
+
+
+        <section class="card">
+
+            <h1>Linear Gradients</h1>
+
+            <p class="description">This will create a background linear gradient from top to bottom.</p>
+
+            <section class="insidebox">
+                .linear-graident-background { <br> 
+
+                    <div class="indent"> background-image: linear <br> </div>
+                        <div> -graident{ <br> </div>
+    
+                        <div class="indent2x"> rgba(232, 102, 236, 0.3) 0% <br> </div>
+
+                        <div class="indent2x"> rgba(232, 102, 236, 0.6) 100% <br> </div>
+
+                        <div class="indent"> }; </div>
+    
+                       }
+    
+            </section>
+
+        </section>
+
+        <section class="card">
+
+            <h1>Box Transition Glow</h1>
+
+            <p class="description">Use transition and box shadows to glow on hover</p>
+
+            <section class="insidebox">
+
+                .code-card .card-header { <br> 
+
+                    <div class="indent"> border-radius: 8px;<br> </div>
+                    
+                    <div class="indent"> transition: all 0.5s ease-in-<br> </div>
+                    out; <br>
+                    } <br> <br>
+                    .code-card:hover, <br>
+                    .code-card:hover .code-header { <br>
+
+                    <div class="indent"> box-shadow: inset 0px 6px 8px </div>
+                    rgba(232, 102, 236, 0.6), 0 0 15px <br>
+                    rgba(232, 102, 236, 0.6); <br>
+                    }
+    
+            </section>
+
+        </section>
+
+        <section class="card">
+
+            <h1>Overlay Card</h1>
+    
+               <p class="description">Use position properties and negative margines to raise elements higher than their natural starting point</p>
+
+            <section class="insidebox">
+                .card-header { <br> 
+
+                    <div class="indent"> position: relative; <br> </div>
+    
+                    <div class="indent"> margin-top: relative; <br> </div>
+    
+                    <div class="indent"> margin-top: -20px; </div>
+
+                    }
+
+            </section>
+
+        </section>
+
+    </div>
+
+</body>
+<footer>Made with ❤️ and CSS</footer>
+</html>
